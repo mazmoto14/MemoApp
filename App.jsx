@@ -22,14 +22,14 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="SignUp"
+        initialRouteName="LogIn"
         screenOptions={{
           headerStyle: { backgroundColor: '#467FD3' },
           headerTitleStyle: { color: '#ffffff' },
           headerTitle: 'Memo App',
           headerTintColor: '#ffffff',
           headerBackTitle: 'Back',
-          cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
+          cardStyleInterpolator: CardStyleInterpolators.forHorizontalgIOS,
           gestureEnabled: true,
           gestureDirection: 'horizontal',
         }}
