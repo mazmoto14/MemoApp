@@ -15,13 +15,12 @@ import { firebaseConfig } from './env';
 
 require('firebase/firestore');
 
-LogBox.ignoreLogs(['Setting a timer']);
-
 if (firebase.apps.length === 0) {
   firebase.initializeApp(firebaseConfig);
 }
 
 const Stack = createStackNavigator();
+LogBox.ignoreLogs(['Setting a timer']);
 
 export default function App() {
   return (
